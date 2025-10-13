@@ -1,9 +1,10 @@
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class Impresion {
     public static void main(String[] args) {
-        Queue<String> impresion = new LinkedList<>();
+        Queue<String> impresion = new ArrayDeque<>();
 
         impresion.add("Hola.pdf");
         impresion.add("Hola2.pdf");
